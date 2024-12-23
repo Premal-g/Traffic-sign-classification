@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Sign Recognition</title>
+</head>
+<body>
+    <h1>Traffic Sign Recognition</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="video" accept=".mp4, .avi, .mkv">
+        <button type="submit">Upload Video</button>
+    </form>
+    <div>
+        <h2>Processed Video</h2>
+        <img id="processed_video" src="" style="width: 100%; height: auto;">
+    </div>
+</body>
+</html>
